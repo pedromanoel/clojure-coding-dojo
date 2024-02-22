@@ -13,3 +13,9 @@
 
 (deftest fifty-is-L
   (is (= "L" (convert 50))))
+
+(deftest three-is-III
+  (is (= "III" (convert 3))))
+
+(deftest four-is-IV
+  (is (= "IV" (convert 3))))
