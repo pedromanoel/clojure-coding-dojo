@@ -14,26 +14,16 @@ Eine vorgefertigte Web-IDE kann mit `lein nightlight` gestartet werden. Unter
 
 ## Ping-Pong-Ablauf
 
-1. Sie schreiben einen fehlschlagenden Test.
-2. Sie geben die Tastaur an ihre(n) Partner(in) weiter.
-3. Ihr(e) Partner(in) schreibt nun Code, der die Tests erfüllt.
-4. Sie überlegen gemeinsam, ob ein Refactoring Sinn ergibt und Ihr(e)
-   Partner(in) führt das Refactoring aus.
-5. Der Prozess beginnt von vorne mit vertauschten Rollen, d.h., Ihr(e)
-   Partner(in) schreibt nun einen Test und dann wird gewechselt.
-6. Die Methode convert soll implementiert werden. Sie bekommt eine ganze Zahl
-   zwischen 1 und 50 übergeben und gibt die Darstellung der Zahl im römischen
-   Zahlensystem aus. Für ungültige Eingaben soll der leere String zurückgegeben
-   werden.
+1. Você escreve um teste com falha.
+2. Você passa o teclado para o seu parceiro.
+3. Seu parceiro agora escreve código que atende aos testes.
+4. Vocês consideram juntos se uma refatoração faz sentido e seu parceiro realiza a refatoração.
+5. O processo começa do início com os papéis invertidos, ou seja, seu parceiro agora escreve um teste e então as coisas mudam.
+6. O método convert deve ser implementado. É fornecido um número inteiro entre 1 e 50 e gera a representação do número no sistema de numeração romana. A string vazia deve ser retornada para entrada inválida.
 
-Die Zahlzeichen des römischen Ziffersystems sind: I (1), V (5) X (10) und 50
-(L). Es werden höchstens drei gleiche Ziffern hintereinander geschreiben, dann
-greift die Subtraktionsregel, d.h. Es kann ein einzelnes I vor ein V oder ein X,
-bzw. ein einzelnes X vor ein L geschrieben werden. Die Subraktionsregel liefert
-also zum Beispiel die Zahlen 4 (IV), 9 (IX), 40 (XL).
+Os numerais do sistema de numeração romana são: I (1), V (5) X (10) e 50 (L). Um máximo de três dígitos idênticos são escritos em uma linha, então a regra de subtração se aplica, ou seja, um único I pode ser escrito na frente de um V ou de um X, ou um único X na frente de um L. Por exemplo, a regra da subração produz os números 4 (IV), 9 (IX), 40 (XL).
 
-Einige weitere Beispiele: 14 = 10 + 4 (XIV), 39 = 30 + 9 (XXXIX), 44 = 40 + 4
-(XLIV).
+Mais alguns exemplos: 14 = 10 + 4 (XIV), 39 = 30 + 9 (XXXIX), 44 = 40 + 4 (XLIV).
 
 ## Auto-Test
 
